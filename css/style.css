@@ -393,7 +393,7 @@ footer {
 }
 
 .portfolio .about {
-    color: white;
+    color: black;
     font-family: 'Saira', sans-serif;
     font-weight: normal;
     /* padding: 10px 20px 20px 10px; */
@@ -420,11 +420,11 @@ footer {
 }
 
 .portfolio .project:nth-last-of-type(odd) {
-    background-color: #4d194d;
+    background-color: #EED94C;
 }
 
 .portfolio .project:nth-last-of-type(even) {
-    background-color: #3d405b;
+    background-color: #99312F;
 }
 
 @media (min-width:768px) {
