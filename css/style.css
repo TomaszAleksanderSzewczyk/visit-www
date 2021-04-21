@@ -604,3 +604,98 @@ footer {
 
     }
 }
+
+/*Hobby section*/
+
+.hobby .item {
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.hobby .item:nth-of-type(1) {
+    background-image: url(/images/hobby3.jpg);
+
+}
+
+.hobby .item:nth-of-type(2) {
+    background-image: url(/images/books1.jpg);
+
+}
+
+.hobby .item:nth-of-type(3) {
+    background-image: url(/images/medale.jpg);
+
+}
+
+.hobby .item:nth-of-type(4) {
+    background-image: url(/images/jezyki.jpg);
+
+}
+
+.hobby .item p {
+    font-family: 'Saira Condensed', sans-serif;
+    color: black;
+    text-align: center;
+    /* line-height: 25vh; */
+    text-shadow: 0 0 4px #EED94C;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 20px;
+
+
+}
+
+.hobby h1 {
+    padding: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+@media (min-width:533px) {
+    .hobby .item {
+        float: left;
+        width: 50%;
+        height: 40vh;
+    }
+}
+
+@media (min-width:768px) {
+    .hobby h1 {
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+
+    .hobby .item p {
+        font-size: 30px;
+        padding: 15px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .hobby .item p {
+        font-size: 30px;
+        padding: 0;
+        line-height: 40vh;
+        opacity: 0;
+        transition: 0.4s;
+        cursor: default;
+    }
+
+    .hobby .item:hover p {
+        opacity: 1;
+    }
+
+    .hobby .item {
+        background-size: 120%;
+        transition: 1s;
+    }
+
+    .hobby .item:hover {
+        background-size: 140%;
+    }
+}
