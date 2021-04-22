@@ -130,9 +130,7 @@ header button:hover:before {
 }
 
 
-footer {
-    min-height: 70vh;
-}
+
 
 
 @media (orientation: landscape) {
