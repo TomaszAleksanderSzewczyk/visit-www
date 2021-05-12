@@ -623,7 +623,7 @@ header button:hover:before {
 }
 
 .hobby .item:nth-of-type(3) {
-    background-image: url(/images/medale.jpg);
+    background-image: url(/images/bitcoin.jpg);
 
 }
 
@@ -695,5 +695,10 @@ header button:hover:before {
 
     .hobby .item:hover {
         background-size: 140%;
+    }
+
+    .hobby h1 {
+        font-size: 60px;
+
     }
 }
