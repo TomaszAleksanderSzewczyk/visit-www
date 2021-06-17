@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
 <body>
   <header>
@@ -110,5 +111,19 @@
 <section></section>
 
 <footer></footer>
+
 </body>
 </html>
+<script>
+  const pressed= [];
+  const secretCode='zarzad';
+  window.addEventListener('keyup',(e)=>{
+    console.log(e.key);
+    pressed.push(e.key);
+    pressed.splice(-secretCode.length-1, pressed.length-secretCode.length);
+    if(pressed.join('').includes(secretCode)){
+    console.log("pik pik");
+cornify_add();
+    }
+  });
+</script>
