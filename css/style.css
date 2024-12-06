@@ -17,7 +17,7 @@ font-family: 'Saira Semi Condensed', sans-serif; */
 header {
 
     position: relative;
-    background-color: #99312F;
+    background-color: #F8B71D;
     height: 100vh;
     overflow: hidden;
 
@@ -54,7 +54,7 @@ header p {
     font-family: 'Saira Condensed', sans-serif;
     font-weight: bold;
     font-size: 40px;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -62,7 +62,7 @@ header p {
 
 header h1 {
     text-align: center;
-    color: white;
+    color: black;
     font-family: 'Saira Condensed', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -71,6 +71,7 @@ header h1 {
 
 header h1 {
     font-size: 20px;
+
 }
 
 header h2 {
@@ -103,7 +104,7 @@ header button:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #99282F;
+    background-color: #FCD612;
     border-radius: 10rem;
     z-index: -2;
 }
@@ -115,10 +116,11 @@ header button:before {
     left: 0;
     width: 0%;
     height: 100%;
-    background-color: #99312F;
+    background-color: #F9C31A;
     transition: all 0.3s;
-    border-radius: 10rem;
+    border-radius: 20rem;
     z-index: -1;
+    border-left: 10px;
 }
 
 header button:hover {
@@ -246,6 +248,7 @@ header button:hover:before {
     }
 
     header h2 {
+        color: black;
         font-size: 60px;
     }
 
@@ -618,12 +621,12 @@ header button:hover:before {
 }
 
 .hobby .item:nth-of-type(2) {
-    background-image: url(/images/books1.jpg);
+    background-image: url(/images/weigths.jpg);
 
 }
 
 .hobby .item:nth-of-type(3) {
-    background-image: url(/images/bitcoin.jpg);
+    background-image: url(/images/btc.webp);
 
 }
 
